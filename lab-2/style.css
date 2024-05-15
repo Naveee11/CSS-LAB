@@ -1,0 +1,40 @@
+/** Step one **/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+/** Step two **/
+h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 46px;
+    letter-spacing: 1.75px;
+    color: bisque;
+    text-align: center;
+
+}
+/** Step three **/
+
+
+h2,p,li,a{
+    font-family: "Montserrat", sans-serif;
+    
+    color: blanchedalmond;
+    
+}
+
+
+
+/** Step five **/
+p span{
+    color: rgb(223, 171, 104);
+}
+/** Step six **/
+h3{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-shadow: 4px 3px 4px rgb(230, 230, 82);
+}
