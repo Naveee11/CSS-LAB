@@ -1,0 +1,128 @@
+/* Fonts */
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+background-color: #A9C9FF;
+background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+
+
+
+    
+}
+
+/* Header */
+header {
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: 'Lobster', cursive;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+#about, #flavors, #video, #svg-example {
+    margin-bottom: 2rem;
+}
+
+/* Section Headers */
+h2 {
+    font-family: 'Lobster', cursive;
+    color: #000000;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    display: block;
+    margin: 1rem 0;
+}
+.logo{
+    height: auto;
+}
+
+/* Video */
+iframe {
+    width: 100%;
+    height: 315px;
+}
+
+/* Footer */
+footer {
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer img {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    height: 40%;
+    padding: 0.5rem;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    
+}
+
+button {
+    padding: 0.75rem;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ffb88c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 0.5rem 0;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    iframe {
+        height: 200px;
+    }
+}
