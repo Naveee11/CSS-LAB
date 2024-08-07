@@ -1,0 +1,56 @@
+body {
+    background-image: url(ZA8A1566-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.sitemap-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.containerOne{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.sitemap {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+
+.sitemap > li {
+    margin-bottom: 50px;
+    text-align: center;
+    margin: 50px;
+}
+
+.sitemap > li > ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.sitemap a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+.sitemap a:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensures the header is above other content */
+}
+
+nav menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav menu li {
+    margin: 0 15px;
+}
+
+nav menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 60px; /* Adjust based on header height */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#section-one {
+    background-color: #f4f4f4;
+}
+
+#section-two {
+    background-color: #ffcc00; /* Background color for the second section */
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); /* Angled bottom */
+}
+
+#section-three {
+    background-color: #d4d4d4;
+}
+
+#section-four {
+    color: #ffffff;
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.cta-section {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.cta-container h1 {
+    margin: 0 0 20px 0;
+    font-size: 2.5em;
+}
+
+.cta-container p {
+    font-size: 1.2em;
+    margin: 0 0 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1em;
+    color: #333;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+}
+
+/* Media query to change the background color for smaller viewports */
+@media (max-width: 550px) {
+    #section-two {
+        background-color: #ff9999; /* New background color for viewports < 550px */
+        clip-path: none; /* Reset clip-path for simplicity on small screens */
+    }
+}
